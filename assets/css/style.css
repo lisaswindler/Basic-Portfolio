@@ -1,14 +1,40 @@
 .content {
-    max-width: 300px;
-    margin: auto;
-    background-color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 20px 20px 20px 20px;
   }
 
+.clearfix::after {
+  clear: both;
+  display: block;
+  content: "";
+}
+
+header {
+    width: 100%;
+    background-color: white;
+    float: left;
+    height: 52px;
+    margin: 0px 0px 0px 0px;
+}
+
+nav {
+    float: right;
+    padding: 0px 0px 0px 0px;
+}
 
 body {
-    background-image: url('../images/spikes.png');
+    background-image: url('../images/dynamic-style.png');
+    background: rgb(230, 230, 230);
+    padding: 20px 20px 20px 20px;
+    margin: auto;
+    width: 100%;
+}
+
+section {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 960px;
+    margin-top: 25px;
+    background-color: white;
+    padding: 20px 30px 20px 30px;
+    color: #777777;
 }
 
 h1 {
@@ -16,9 +42,14 @@ h1 {
     background-color: #4aaaa5;
     width: 200px;
     padding: 15px 0px 15px 0px;
-    margin: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 100px;
     text-align: center;
-    font-size: 23px;
-    float-left:
+    font-size: 20px;
+    letter-spacing: 0.9px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+footer {
+    background-color: 666666;
+    border-top: 8px solid #4aaaa5;
+}
