@@ -59,7 +59,7 @@ a:hover {
 }
 
 body {
-    background-image: url('../images/dynamic-style.png');
+    background-image: url('../images/so-white.png');
     margin: 0px;
     width: 100%;
 }
@@ -67,12 +67,12 @@ body {
 .pageheading {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5; 
-    border-bottom: 3px solid #d8d8d8;
+    border-bottom: 2px solid #d8d8d8;
     padding: 0px 0px 20px 0px;
     margin-bottom: 25px;
 }
 
-.picture {
+.profilepic {
     height: 208px;
     float: left;
     margin: 2px 20px 20px 0px;
@@ -105,4 +105,35 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
+}
+
+form {
+    margin: auto;
+    position: relative;
+}
+
+#name, #email {
+    width: 903px;
+    color: #a5a5a5;
+    padding: 5px 0px 5px 5px;
+    margin: 10px 0px 10px 0px;
+    border: 1px solid #dddddd;
+}
+
+
+#message {
+    min-width: 905px;
+    max-width: 905px;
+    margin: 10px 0px 10px 0px;
+    border: 1px solid #dddddd;
+    height: 100px;
+}
+
+#submit {
+    background-color: #4aaaa5;
+    color: white;
+    border: none;
+    padding: 5px 20px 6px 20px;
+    text-align: center;
+    margin-top: 0px;
 }
