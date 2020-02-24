@@ -15,13 +15,13 @@ header {
     border-bottom: 2px solid #cccccc;
 }
 
-.subheader {
+.headercontainer {
     width: 960px;
     display: block;
     margin: auto;
 }
 
-.fullname {
+h1.fullname {
     color: white;
     background-color: #4aaaa5;
     padding: 20px 20px 24px 20px;
@@ -52,6 +52,7 @@ a:link, a:visited {
 a:hover {
     color: #888888;
     text-decoration: underline;
+    
   }
 
 .currentpage {
@@ -64,7 +65,7 @@ body {
     width: 100%;
 }
 
-.pageheading {
+h2.pageheading {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5; 
     border-bottom: 2px solid #d8d8d8;
@@ -84,6 +85,7 @@ section {
     width: 908px;
     margin: auto;
     margin-top: 30px;
+    margin-bottom: 80px;
     background-color: white;
     padding: 10px 25px 15px 25px;
     color: #888888;
@@ -105,6 +107,8 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
+    margin-top: 20px;
+    z-index: 2;
 }
 
 form {
@@ -120,13 +124,12 @@ form {
     border: 1px solid #dddddd;
 }
 
-
 #message {
     min-width: 905px;
     max-width: 905px;
     margin: 10px 0px 10px 0px;
     border: 1px solid #dddddd;
-    height: 100px;
+    height: 180px;
 }
 
 #submit {
@@ -135,7 +138,7 @@ form {
     border: none;
     padding: 5px 20px 6px 20px;
     text-align: center;
-    margin-top: 0px;
+    margin: 5px 0px 10px 0px;
 }
 
 .picture {
@@ -146,7 +149,6 @@ form {
 .flex-container-images {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 60px;
     justify-content: space-between;
 }
 
@@ -155,7 +157,6 @@ form {
     position: absolute;
     z-index: 1;
     display: flex;
-    justify-content: evenly;
 }
 
 .textbox {
