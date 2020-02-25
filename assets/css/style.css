@@ -152,29 +152,35 @@ form {
     justify-content: space-between;
 }
 
-.flex-container-text-lower, .flex-container-text-upper{
-    flex-wrap: nowrap;
+.flex-container-text-upper {
     position: absolute;
-    z-index: 1;
     display: flex;
+    flex-wrap: nowrap;
+    width: 908px;
+    height: 300px;
+    justify-content: space-between;
 }
 
-.textbox-upper {
+.flex-container-text-lower {
+    position: absolute;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 908px;
+    height: 300px;
+    margin-top: 216px;
+    justify-content: space-between;
+}
+
+.linkbox {
     color: white !important;
     background-color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
     width: 280px;
-    padding: 18px 0px 18px 0px;
-    margin: 124px 34px 37px 0px;
+    height: 40px;
+    padding-top: 20px;
+    margin-top: 120px;
+    text-align: center;
 }
 
-.textbox-lower {
-    color: white !important;
-    background-color: #4aaaa5;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    width: 280px;
-    padding: 18px 0px 18px 0px;
-    margin: 340px 34px 0px 0px;
-}
+
+
